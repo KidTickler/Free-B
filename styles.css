@@ -22,6 +22,21 @@ h1 {
     margin: 20px 0;
 }
 
+/* Add these styles to center the video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Add this style to make the video responsive */
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+
 .picture-container {
     display: flex;
     justify-content: space-between;
